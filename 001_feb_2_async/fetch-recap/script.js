@@ -5,14 +5,13 @@ const url = `https://api.punkapi.com/v2/beers`;
 //Det beror helt enkelt på vilka promises som blir fulfilled först
 
 
-
 //Vi sparar ner varje promise i en variabel
 const beerPromise = fetch(url); //fetch returnerar ett promise
 console.log(beerPromise);
 
 const jsonPromise = beerPromise.then(
     function(promiseValue){
-        console.log(promiseValue);
+        // console.log(promiseValue);
         return promiseValue.json(); //json() tar json-datan i responseobjectets body och gör om till JS objekt. Metoden returnerar ett promise
     }
 );
