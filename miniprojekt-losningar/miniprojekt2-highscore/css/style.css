@@ -1,0 +1,68 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.flex-wrapper{
+    text-align: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.player, .computer{
+    border-radius: 1.5rem;
+    flex-basis: 13rem;
+    height: 13rem;
+    margin: 5rem 1.5rem 1.5rem;
+}
+
+.player{
+    background-color: hsl(183, 66%, 88%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.074), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.computer{
+    background-color: hsl(279, 61%, 86%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.074), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+#game-play, #game-end, #player-choice, #computer-choice, #next-round{
+    display: none;
+}
+#next-round{
+    margin: 0 auto;
+}
+
+.choice {
+    font-size: 2rem;
+    margin: 2.5rem 0;
+}
+.choice button{
+    width: 3rem;
+    font-size: 2rem;
+}
+
+.winner{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.074), 0 6px 20px 0 hsl(45, 100%, 50%);
+    /* border: solid black 1px; */
+}
+
+#highscore, #score{
+    /* border: 1px solid black; */
+    width: 12rem;
+    margin: 2rem auto 0;
+    padding: .1rem 0 .5rem 0;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.04);
+    border-radius: 3%;
+}
+li{
+    /* border: red 1px solid; */
+    margin: .5rem 0;
+    text-align: left;
+}
+h4{
+    /* margin-top: 5rem;  */
+    /* border: red 1px solid;  */
+}
+

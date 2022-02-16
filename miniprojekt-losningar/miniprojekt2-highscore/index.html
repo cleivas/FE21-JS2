@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+    <!-- <script src="js/highscore.js" defer></script> -->
+    <title>Sten Sax Påse</title>
+</head>
+
+<body>
+    <div id="game-play">
+        <h1 id='score'>Score: 0</h1>
+        <div class='flex-wrapper'>
+            <section class='player'>
+                <h1 id='player-name'></h1>
+                <div id='choice-btns' class='choice'>
+                    <button>👊</button>
+                    <button>✌️</button>
+                    <button>✋</button>
+                </div>
+                <h2 id="player-choice" class="choice"></h2>
+            </section>
+            <section class='computer'>
+                <h1>Computer</h1>
+                <h2 id="computer-choice" class="choice"></h2>
+            </section>
+        </div>
+    </div>
+    <form id="game-start">
+        <h1>Vad heter du?</h1>
+        <input type="text" id="namn" />
+        <button id='play'>Starta Spelet</button>
+    </form>
+    <div id="highscore">
+        <h4>Highscore</h4>
+        <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+    </div>
+</body>
+
+</html>
