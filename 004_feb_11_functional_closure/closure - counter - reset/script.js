@@ -23,9 +23,3 @@ function count(){
 
 const myCounter = count();
 const mySecondCounter = count();
-
-const account1 = createAccount(30000);
-account1.deposit(2000);
-account1.checkAmount(); //Resultatet av detta ska vara 32000
-
-
