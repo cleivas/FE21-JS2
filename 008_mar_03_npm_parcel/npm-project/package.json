@@ -1,0 +1,14 @@
+{
+  "name": "npm-project",
+  "version": "1.0.0",
+  "description": "först projektet med npm",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animejs": "^3.2.1"
+  }
+}
