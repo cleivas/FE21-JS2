@@ -1,0 +1,9 @@
+section{
+    display: flex;
+    /* border: 1px red solid; */
+    align-items: center;
+}
+section button{
+    height: 30px;
+    margin: 0 1rem;
+}
